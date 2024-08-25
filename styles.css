@@ -1,0 +1,120 @@
+/* styles.css */
+
+/* Оформление страницы */
+body {
+    background-color: #2c2c2c;
+    color: #ffffff;
+}
+
+/* Стили боковой панели */
+.css-18e3th9 {
+    background-color: #333333;
+    color: #ffffff;
+    border-color: #444444;
+}
+
+/* Стили заголовка */
+.css-1kyxreq {
+    color: #ffffff;
+}
+
+/* Оформление контейнеров */
+.css-1offfwp {
+    background-color: #444444;
+    border-radius: 10px;
+}
+
+/* Основные стили для кнопок */
+.stButton>button {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 8px;
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.stButton>button:hover {
+    background-color: #45a049;
+}
+
+/* Широкие кнопки "Вперед" и "Назад" */
+.wide-button {
+    width: 100px; /* Достаточная ширина для текста */
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    white-space: nowrap; /* Запрещаем перенос текста */
+    text-align: center; /* Центрируем текст */
+}
+
+/* Стили для текстовых полей */
+.stTextInput>div>input {
+    background-color: #333333;
+    color: #ffffff;
+    border-color: #555555;
+    border-radius: 5px;
+    font-size: 60px;
+}
+
+/* Стили для ползунков */
+.stSlider>div>div>div>div {
+    background: #4CAF50;
+    font-size: 60px;
+}
+
+/* Стили для полей ввода чисел */
+.stNumberInput input {
+    background-color: #333333;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 40px;
+}
+
+/* Шрифты для заголовков */
+h1 {
+    font-size: 36px; /* Размер шрифта для заголовка первого уровня */
+}
+
+h2 {
+    font-size: 30px; /* Размер шрифта для заголовка второго уровня */
+}
+
+h3 {
+    font-size: 24px; /* Размер шрифта для заголовка третьего уровня */
+}
+
+/* Шрифты для абзацев */
+p {
+    font-size: 18px; /* Размер шрифта для абзацев */
+}
+
+/* Шрифты для кнопок */
+.stButton>button {
+    font-size: 48px; /* Размер шрифта для кнопок */
+}
+
+/* Шрифты для текстовых полей и ввода */
+.stTextInput>div>input,
+.stNumberInput input {
+    font-size: 26px; /* Размер шрифта для текстовых полей и ввода */
+}
+
+/* Увеличение размера шрифта для текстов в боковой панели */
+
+.stSidebar .stNumberInput label,
+.stSidebar .stSlider label,
+.stSidebar .stTextInput label,
+.stSidebar .stFileUploader label {
+    font-size: 24px; /* Увеличиваем размер шрифта в три раза */
+}
+
+/* Увеличение размера шрифта для ползунка и текстовых полей */
+.stSidebar .stSlider>div>div>div>div {
+    font-size: 24px; /* Увеличиваем размер шрифта для ползунка */
+}
+
+.stSidebar .stTextInput>div>input,
+.stSidebar .stNumberInput input {
+    font-size: 24px; /* Увеличиваем размер шрифта для полей ввода */
+}
